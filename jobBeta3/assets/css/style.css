@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.question-block {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #e9ecef;
+}
+
+.option-row {
+    margin-bottom: 10px;
+}
